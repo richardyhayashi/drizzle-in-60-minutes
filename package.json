@@ -1,0 +1,26 @@
+{
+  "name": "drizzle-in-60-minutes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/main3.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:drop": "drizzle-kit drop",
+    "db:migrate": "tsx src/drizzle/migrate.ts"
+  },
+  "keywords": [],
+  "author": "Richard Y. Hayashi",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.12.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.39.1",
+    "postgres": "^3.4.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.4"
+  }
+}
