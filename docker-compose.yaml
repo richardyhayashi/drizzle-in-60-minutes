@@ -1,9 +1,9 @@
 services:
   db:
-    image: postgres
+    image: postgres:17.2-alpinedocker imagessdsfsf
     restart: always
     volumes:
-      - ./data/db:/var/lib/postgresql/data
+      - ./db-data:/var/lib/postgresql/data
     ports:
       - 5432:5432
 
