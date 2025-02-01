@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/main3.ts",
+    "dev": "tsx watch src/insertData.ts",
     "db:generate": "drizzle-kit generate",
     "db:drop": "drizzle-kit drop",
     "db:migrate": "tsx src/drizzle/migrate.ts"
